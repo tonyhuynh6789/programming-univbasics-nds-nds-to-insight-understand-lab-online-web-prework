@@ -20,10 +20,12 @@ def print_first_directors_movie_titles
 
 while title < directors_database[0][:movies].count do
   looped = directors_database[0][:movies][title]
-  puts "#{looped[:title]"
+  puts "#{looped[:title]}"
+  
+  title += 1
 
 
-
+end 
 
 end 
 
